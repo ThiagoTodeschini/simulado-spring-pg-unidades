@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @Builder
 @Entity
 @Table(uniqueConstraints = {
-        @UniqueConstraint(name = "UK_chefe_usuario_unidade", columnNames = {"usuario_id", "unidade_id", "fim"})
+    @UniqueConstraint(name = "UK_chefe_usuario_unidade", columnNames = {"usuario_id", "unidade_id", "fim"})
 })
 public class Chefe {
 
